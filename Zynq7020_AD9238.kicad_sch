@@ -1,0 +1,150 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid e2c3762a-bcbe-43e8-9d28-0bac9f933799)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 50.8 127) (size 38.1 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1b8b2fe9-e808-42fe-911d-4435f348faa9)
+    (property "Sheetname" "ZYNQ_DDR3" (at 50.8 126.2884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "ZYNQ_DDR3.kicad_sch" (at 50.8 152.9846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Zynq7020_AD9238"
+        (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799" (page "9"))
+      )
+    )
+  )
+
+  (sheet (at 50.8 88.9) (size 38.1 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 3b67ede6-aa01-4615-912f-88879dcf6681)
+    (property "Sheetname" "ZYNQ_Power" (at 50.8 88.1884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "ZYNQ_Power.kicad_sch" (at 50.8 114.8846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Zynq7020_AD9238"
+        (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 101.6 50.8) (size 38.1 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 5a80b4b3-a189-42dc-b06a-167a926c6d04)
+    (property "Sheetname" "AD9238_Channel12" (at 101.6 50.0884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "AD9238_Channel12.kicad_sch" (at 101.6 76.7846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Zynq7020_AD9238"
+        (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 152.4 88.9) (size 38.1 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid bd132488-cd07-40cd-b815-a9f1a70d8a5e)
+    (property "Sheetname" "ZYNQ_SD_ETH" (at 152.4 88.1884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "ZYNQ_SD_ETH.kicad_sch" (at 152.4 114.8846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Zynq7020_AD9238"
+        (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799" (page "7"))
+      )
+    )
+  )
+
+  (sheet (at 152.4 50.8) (size 38.1 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid d3b03580-9c8e-424b-a3d3-9cf6104886c9)
+    (property "Sheetname" "AD9238_Channel34" (at 152.4 50.0884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "AD9238_Channel34.kicad_sch" (at 152.4 76.7846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Zynq7020_AD9238"
+        (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 101.6 127) (size 38.1 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid dc7d5d71-8014-4d7f-9a96-7c8c551076a3)
+    (property "Sheetname" "ZYNQ_PL" (at 101.6 126.2884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "ZYNQ_PL.kicad_sch" (at 101.6 152.9846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Zynq7020_AD9238"
+        (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 101.6 88.9) (size 38.1 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid fab65c72-8b15-4b96-a6c1-d08f75e574f3)
+    (property "Sheetname" "ZYNQ_Bank_0_500" (at 101.6 88.1884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "ZYNQ_Bank_0_500.kicad_sch" (at 101.6 114.8846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Zynq7020_AD9238"
+        (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799" (page "8"))
+      )
+    )
+  )
+
+  (sheet (at 50.8 50.8) (size 38.1 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid fff5376c-76b4-476b-8a9f-8ddf8f06392f)
+    (property "Sheetname" "PowerManagementUnit" (at 50.8 50.0884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "PowerManagementUnit.kicad_sch" (at 50.8 76.7846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Zynq7020_AD9238"
+        (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

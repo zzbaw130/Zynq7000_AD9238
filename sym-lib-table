@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Zynq7020_AD9238")(type "KiCad")(uri "${KIPRJMOD}/Zynq7020_AD9238.kicad_sym")(options "")(descr ""))
+)
