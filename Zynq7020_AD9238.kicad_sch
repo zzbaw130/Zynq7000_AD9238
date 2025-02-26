@@ -11,7 +11,7 @@
   (sheet (at 50.8 127) (size 38.1 25.4) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
-    (uuid 1b8b2fe9-e808-42fe-911d-4435f348faa9)
+    (uuid 0a9422c9-c8a8-4fd3-bd82-7adfb4362418)
     (property "Sheetname" "ZYNQ_DDR3" (at 50.8 126.2884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
@@ -20,7 +20,7 @@
     )
     (instances
       (project "Zynq7020_AD9238"
-        (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799" (page "9"))
+        (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799" (page "10"))
       )
     )
   )
@@ -93,14 +93,14 @@
     )
   )
 
-  (sheet (at 101.6 127) (size 38.1 25.4) (fields_autoplaced)
+  (sheet (at 101.6 125.73) (size 38.1 25.4) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid dc7d5d71-8014-4d7f-9a96-7c8c551076a3)
-    (property "Sheetname" "ZYNQ_PL" (at 101.6 126.2884 0)
+    (property "Sheetname" "ZYNQ_PL" (at 101.6 125.0184 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "ZYNQ_PL.kicad_sch" (at 101.6 152.9846 0)
+    (property "Sheetfile" "ZYNQ_PL.kicad_sch" (at 101.6 151.7146 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
@@ -114,10 +114,10 @@
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid fab65c72-8b15-4b96-a6c1-d08f75e574f3)
-    (property "Sheetname" "ZYNQ_Bank_0_500" (at 101.6 88.1884 0)
+    (property "Sheetname" "ZYNQ_Bank_0_500_502" (at 101.6 88.1884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "ZYNQ_Bank_0_500.kicad_sch" (at 101.6 114.8846 0)
+    (property "Sheetfile" "ZYNQ_Bank_0_500_502.kicad_sch" (at 101.6 114.8846 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
