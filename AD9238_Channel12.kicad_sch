@@ -2000,7 +2000,7 @@
   (symbol (lib_id "power:Earth") (at 60.96 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 028e31af-d012-4b5c-bfce-2820d5fcb49a)
-    (property "Reference" "#PWR068" (at 60.96 102.87 0)
+    (property "Reference" "#PWR063" (at 60.96 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (at 60.96 100.33 0)
@@ -2016,7 +2016,7 @@
     (instances
       (project "Zynq7020_AD9238"
         (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799/5a80b4b3-a189-42dc-b06a-167a926c6d04"
-          (reference "#PWR068") (unit 1)
+          (reference "#PWR063") (unit 1)
         )
       )
     )
@@ -2034,7 +2034,7 @@
     (property "Footprint" "footprints:SMA_Connect" (at 26.67 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "datasheet/BWSMA-KE-P001" (at 26.67 87.63 0)
+    (property "Datasheet" "datasheet/BWSMA-KE-P001.pdf" (at 26.67 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "4" (uuid 9e24d163-fc6e-49f0-bb58-d4f2328ed7a5))
@@ -2054,7 +2054,7 @@
   (symbol (lib_id "Device:C") (at 35.56 49.53 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 05eb7b1a-c8e2-4428-86a5-1481bc97ee63)
-    (property "Reference" "C111" (at 39.37 48.26 90)
+    (property "Reference" "C107" (at 39.37 48.26 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1uF" (at 39.37 50.8 90)
@@ -2071,7 +2071,7 @@
     (instances
       (project "Zynq7020_AD9238"
         (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799/5a80b4b3-a189-42dc-b06a-167a926c6d04"
-          (reference "C111") (unit 1)
+          (reference "C107") (unit 1)
         )
       )
     )
@@ -2080,7 +2080,7 @@
   (symbol (lib_id "Zynq7020_AD9238:AD9238") (at 207.01 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 12194210-ed52-44b8-8533-5ff35b300db1)
-    (property "Reference" "U13" (at 207.01 15.24 0)
+    (property "Reference" "U9" (at 207.01 15.24 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AD9238" (at 207.01 17.78 0)
@@ -2159,7 +2159,7 @@
     (instances
       (project "Zynq7020_AD9238"
         (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799/5a80b4b3-a189-42dc-b06a-167a926c6d04"
-          (reference "U13") (unit 1)
+          (reference "U9") (unit 1)
         )
       )
     )
@@ -2168,7 +2168,7 @@
   (symbol (lib_id "Device:C") (at 60.96 92.71 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 281278c8-c0f0-4d9d-aacd-b56fe8479dc1)
-    (property "Reference" "C114" (at 59.69 91.44 90)
+    (property "Reference" "C110" (at 59.69 91.44 90)
       (effects (font (size 1.016 1.016)) (justify right))
     )
     (property "Value" "0.1uF" (at 62.23 91.44 90)
@@ -2185,7 +2185,7 @@
     (instances
       (project "Zynq7020_AD9238"
         (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799/5a80b4b3-a189-42dc-b06a-167a926c6d04"
-          (reference "C114") (unit 1)
+          (reference "C110") (unit 1)
         )
       )
     )
@@ -2194,7 +2194,7 @@
   (symbol (lib_id "Device:C") (at 35.56 86.36 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2898a3e2-67dc-443f-9738-8dd5601a1cf3)
-    (property "Reference" "C113" (at 39.37 85.09 90)
+    (property "Reference" "C108" (at 39.37 85.09 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1uF" (at 39.37 87.63 90)
@@ -2211,7 +2211,7 @@
     (instances
       (project "Zynq7020_AD9238"
         (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799/5a80b4b3-a189-42dc-b06a-167a926c6d04"
-          (reference "C113") (unit 1)
+          (reference "C108") (unit 1)
         )
       )
     )
@@ -2220,7 +2220,7 @@
   (symbol (lib_id "Device:R") (at 102.87 80.01 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2c79b94e-8bda-4506-9d0a-6e026940fb3b)
-    (property "Reference" "R17" (at 100.33 77.47 90)
+    (property "Reference" "R21" (at 100.33 77.47 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "33" (at 105.41 77.47 90)
@@ -2237,7 +2237,7 @@
     (instances
       (project "Zynq7020_AD9238"
         (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799/5a80b4b3-a189-42dc-b06a-167a926c6d04"
-          (reference "R17") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -2246,7 +2246,7 @@
   (symbol (lib_id "Device:R") (at 102.87 43.18 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2f6ed813-0d1b-4672-be17-eb6dfc1c7f05)
-    (property "Reference" "R21" (at 100.33 40.64 90)
+    (property "Reference" "R19" (at 100.33 40.64 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "33" (at 105.41 40.64 90)
@@ -2263,7 +2263,7 @@
     (instances
       (project "Zynq7020_AD9238"
         (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799/5a80b4b3-a189-42dc-b06a-167a926c6d04"
-          (reference "R21") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -2272,7 +2272,7 @@
   (symbol (lib_id "Zynq7020_AD9238:TC1-1T+") (at 49.53 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 31e7d2ac-0769-4a8b-b181-b86caa1e108f)
-    (property "Reference" "T3" (at 49.53 77.47 0)
+    (property "Reference" "T2" (at 49.53 77.47 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "TC1-1T+" (at 49.53 90.17 0)
@@ -2292,7 +2292,7 @@
     (instances
       (project "Zynq7020_AD9238"
         (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799/5a80b4b3-a189-42dc-b06a-167a926c6d04"
-          (reference "T3") (unit 1)
+          (reference "T2") (unit 1)
         )
       )
     )
@@ -2301,7 +2301,7 @@
   (symbol (lib_id "power:Earth") (at 66.04 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 35be2481-d1ea-4a77-9766-616b2039034c)
-    (property "Reference" "#PWR066" (at 66.04 66.04 0)
+    (property "Reference" "#PWR064" (at 66.04 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (at 66.04 63.5 0)
@@ -2317,7 +2317,7 @@
     (instances
       (project "Zynq7020_AD9238"
         (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799/5a80b4b3-a189-42dc-b06a-167a926c6d04"
-          (reference "#PWR066") (unit 1)
+          (reference "#PWR064") (unit 1)
         )
       )
     )
@@ -2352,7 +2352,7 @@
   (symbol (lib_id "Device:C") (at 162.56 92.71 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3ade84e1-a1ff-48c2-8e5f-6e09e091b24a)
-    (property "Reference" "C130" (at 163.83 90.17 0)
+    (property "Reference" "C128" (at 163.83 90.17 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 161.29 90.17 0)
@@ -2369,7 +2369,7 @@
     (instances
       (project "Zynq7020_AD9238"
         (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799/5a80b4b3-a189-42dc-b06a-167a926c6d04"
-          (reference "C130") (unit 1)
+          (reference "C128") (unit 1)
         )
       )
     )
@@ -2378,7 +2378,7 @@
   (symbol (lib_id "Device:C") (at 101.6 166.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4663bf54-62eb-4b4e-a99c-9d71ed46bcf3)
-    (property "Reference" "C118" (at 104.14 165.1 0)
+    (property "Reference" "C124" (at 104.14 165.1 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 104.14 167.64 0)
@@ -2395,7 +2395,7 @@
     (instances
       (project "Zynq7020_AD9238"
         (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799/5a80b4b3-a189-42dc-b06a-167a926c6d04"
-          (reference "C118") (unit 1)
+          (reference "C124") (unit 1)
         )
       )
     )
@@ -2404,7 +2404,7 @@
   (symbol (lib_id "power:Earth") (at 161.29 36.83 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4b087884-a7b7-454b-bb76-a3a9cec7f958)
-    (property "Reference" "#PWR083" (at 154.94 36.83 0)
+    (property "Reference" "#PWR071" (at 154.94 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (at 157.48 36.83 0)
@@ -2420,7 +2420,7 @@
     (instances
       (project "Zynq7020_AD9238"
         (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799/5a80b4b3-a189-42dc-b06a-167a926c6d04"
-          (reference "#PWR083") (unit 1)
+          (reference "#PWR071") (unit 1)
         )
       )
     )
@@ -2429,7 +2429,7 @@
   (symbol (lib_id "Device:C") (at 162.56 82.55 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4ba1c3e5-35ea-4b88-9b18-afcccabeccaa)
-    (property "Reference" "C129" (at 163.83 80.01 0)
+    (property "Reference" "C127" (at 163.83 80.01 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 161.29 80.01 0)
@@ -2446,7 +2446,7 @@
     (instances
       (project "Zynq7020_AD9238"
         (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799/5a80b4b3-a189-42dc-b06a-167a926c6d04"
-          (reference "C129") (unit 1)
+          (reference "C127") (unit 1)
         )
       )
     )
@@ -2455,7 +2455,7 @@
   (symbol (lib_id "power:Earth") (at 76.2 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4d44e363-97f3-4d52-8558-7406a03bdfba)
-    (property "Reference" "#PWR065" (at 76.2 189.23 0)
+    (property "Reference" "#PWR069" (at 76.2 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (at 76.2 186.69 0)
@@ -2471,7 +2471,7 @@
     (instances
       (project "Zynq7020_AD9238"
         (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799/5a80b4b3-a189-42dc-b06a-167a926c6d04"
-          (reference "#PWR065") (unit 1)
+          (reference "#PWR069") (unit 1)
         )
       )
     )
@@ -2480,7 +2480,7 @@
   (symbol (lib_id "Device:C") (at 92.71 86.36 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4e4c9512-5b3b-4afa-a762-f60369fd8f51)
-    (property "Reference" "C125" (at 92.71 90.17 90)
+    (property "Reference" "C122" (at 92.71 90.17 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1uF" (at 92.71 92.71 90)
@@ -2497,7 +2497,7 @@
     (instances
       (project "Zynq7020_AD9238"
         (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799/5a80b4b3-a189-42dc-b06a-167a926c6d04"
-          (reference "C125") (unit 1)
+          (reference "C122") (unit 1)
         )
       )
     )
@@ -2561,7 +2561,7 @@
   (symbol (lib_id "Device:C") (at 166.37 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 58bc9008-fc70-4430-95a0-78e3b866f5fd)
-    (property "Reference" "C131" (at 168.91 29.21 0)
+    (property "Reference" "C129" (at 168.91 29.21 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1nF" (at 168.91 31.75 0)
@@ -2578,7 +2578,7 @@
     (instances
       (project "Zynq7020_AD9238"
         (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799/5a80b4b3-a189-42dc-b06a-167a926c6d04"
-          (reference "C131") (unit 1)
+          (reference "C129") (unit 1)
         )
       )
     )
@@ -2587,7 +2587,7 @@
   (symbol (lib_id "Device:C") (at 90.17 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5a7c55ea-049a-4d2a-a1b1-1ae177fd3355)
-    (property "Reference" "C115" (at 92.71 133.35 0)
+    (property "Reference" "C117" (at 92.71 133.35 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 92.71 135.89 0)
@@ -2604,7 +2604,7 @@
     (instances
       (project "Zynq7020_AD9238"
         (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799/5a80b4b3-a189-42dc-b06a-167a926c6d04"
-          (reference "C115") (unit 1)
+          (reference "C117") (unit 1)
         )
       )
     )
@@ -2613,7 +2613,7 @@
   (symbol (lib_id "power:Earth") (at 60.96 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5e49f513-62a5-482d-afb0-15b4ef34592e)
-    (property "Reference" "#PWR061" (at 60.96 66.04 0)
+    (property "Reference" "#PWR062" (at 60.96 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (at 60.96 63.5 0)
@@ -2629,7 +2629,7 @@
     (instances
       (project "Zynq7020_AD9238"
         (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799/5a80b4b3-a189-42dc-b06a-167a926c6d04"
-          (reference "#PWR061") (unit 1)
+          (reference "#PWR062") (unit 1)
         )
       )
     )
@@ -2638,7 +2638,7 @@
   (symbol (lib_id "Device:C") (at 166.37 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5f3c37b6-bcf1-4801-9a04-b3fd8bdb3571)
-    (property "Reference" "C132" (at 168.91 109.22 0)
+    (property "Reference" "C130" (at 168.91 109.22 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1nF" (at 168.91 111.76 0)
@@ -2655,7 +2655,7 @@
     (instances
       (project "Zynq7020_AD9238"
         (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799/5a80b4b3-a189-42dc-b06a-167a926c6d04"
-          (reference "C132") (unit 1)
+          (reference "C130") (unit 1)
         )
       )
     )
@@ -2664,7 +2664,7 @@
   (symbol (lib_id "Device:R") (at 78.74 38.1 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5f70cb7c-fc43-4566-a09b-43d2047d4cd3)
-    (property "Reference" "R18" (at 76.2 35.56 90)
+    (property "Reference" "R15" (at 76.2 35.56 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "DNL" (at 81.28 35.56 90)
@@ -2681,7 +2681,7 @@
     (instances
       (project "Zynq7020_AD9238"
         (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799/5a80b4b3-a189-42dc-b06a-167a926c6d04"
-          (reference "R18") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -2690,7 +2690,7 @@
   (symbol (lib_id "power:Earth") (at 30.48 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 687e8486-873d-43ec-b987-bc538c511461)
-    (property "Reference" "#PWR057" (at 30.48 63.5 0)
+    (property "Reference" "#PWR058" (at 30.48 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (at 30.48 60.96 0)
@@ -2706,7 +2706,7 @@
     (instances
       (project "Zynq7020_AD9238"
         (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799/5a80b4b3-a189-42dc-b06a-167a926c6d04"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR058") (unit 1)
         )
       )
     )
@@ -2740,7 +2740,7 @@
   (symbol (lib_id "Device:C") (at 90.17 166.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 73bd4112-9f4e-417f-8d15-30e6f609ba31)
-    (property "Reference" "C116" (at 92.71 165.1 0)
+    (property "Reference" "C118" (at 92.71 165.1 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 92.71 167.64 0)
@@ -2757,7 +2757,7 @@
     (instances
       (project "Zynq7020_AD9238"
         (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799/5a80b4b3-a189-42dc-b06a-167a926c6d04"
-          (reference "C116") (unit 1)
+          (reference "C118") (unit 1)
         )
       )
     )
@@ -2766,7 +2766,7 @@
   (symbol (lib_id "Device:C") (at 92.71 44.45 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 74c48237-ea7b-4d5a-988b-8cbeda10e9d1)
-    (property "Reference" "C121" (at 92.71 38.1 90)
+    (property "Reference" "C119" (at 92.71 38.1 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1uF" (at 92.71 40.64 90)
@@ -2783,7 +2783,7 @@
     (instances
       (project "Zynq7020_AD9238"
         (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799/5a80b4b3-a189-42dc-b06a-167a926c6d04"
-          (reference "C121") (unit 1)
+          (reference "C119") (unit 1)
         )
       )
     )
@@ -2792,7 +2792,7 @@
   (symbol (lib_id "Device:R") (at 78.74 74.93 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 753bd7c0-d0da-448e-b58f-74dbb13f26e6)
-    (property "Reference" "R15" (at 76.2 72.39 90)
+    (property "Reference" "R17" (at 76.2 72.39 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "DNL" (at 81.28 72.39 90)
@@ -2809,7 +2809,7 @@
     (instances
       (project "Zynq7020_AD9238"
         (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799/5a80b4b3-a189-42dc-b06a-167a926c6d04"
-          (reference "R15") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -2818,7 +2818,7 @@
   (symbol (lib_id "Zynq7020_AD9238:TC1-1T+") (at 78.74 46.99 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 754f774f-fa8a-48bc-a97d-9ee694bcdcc3)
-    (property "Reference" "T2" (at 78.74 40.64 0)
+    (property "Reference" "T3" (at 78.74 40.64 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "TC1-1T+" (at 78.74 53.34 0)
@@ -2838,7 +2838,7 @@
     (instances
       (project "Zynq7020_AD9238"
         (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799/5a80b4b3-a189-42dc-b06a-167a926c6d04"
-          (reference "T2") (unit 1)
+          (reference "T3") (unit 1)
         )
       )
     )
@@ -2847,7 +2847,7 @@
   (symbol (lib_id "Device:C") (at 92.71 49.53 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8556dd2e-f477-47d0-8404-de1e14322402)
-    (property "Reference" "C122" (at 92.71 53.34 90)
+    (property "Reference" "C120" (at 92.71 53.34 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1uF" (at 92.71 55.88 90)
@@ -2864,7 +2864,7 @@
     (instances
       (project "Zynq7020_AD9238"
         (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799/5a80b4b3-a189-42dc-b06a-167a926c6d04"
-          (reference "C122") (unit 1)
+          (reference "C120") (unit 1)
         )
       )
     )
@@ -2899,7 +2899,7 @@
   (symbol (lib_id "power:Earth") (at 176.53 59.69 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 96bf0c05-5797-4150-98b8-585877f5645d)
-    (property "Reference" "#PWR085" (at 170.18 59.69 0)
+    (property "Reference" "#PWR073" (at 170.18 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (at 172.72 59.69 0)
@@ -2915,7 +2915,7 @@
     (instances
       (project "Zynq7020_AD9238"
         (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799/5a80b4b3-a189-42dc-b06a-167a926c6d04"
-          (reference "#PWR085") (unit 1)
+          (reference "#PWR073") (unit 1)
         )
       )
     )
@@ -2924,7 +2924,7 @@
   (symbol (lib_id "Device:C") (at 66.04 92.71 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9a2729a6-030b-49b0-a07e-2085dd52b20c)
-    (property "Reference" "C119" (at 64.77 91.44 90)
+    (property "Reference" "C112" (at 64.77 91.44 90)
       (effects (font (size 1.016 1.016)) (justify right))
     )
     (property "Value" "0.1uF" (at 67.31 91.44 90)
@@ -2941,7 +2941,7 @@
     (instances
       (project "Zynq7020_AD9238"
         (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799/5a80b4b3-a189-42dc-b06a-167a926c6d04"
-          (reference "C119") (unit 1)
+          (reference "C112") (unit 1)
         )
       )
     )
@@ -2950,7 +2950,7 @@
   (symbol (lib_id "power:Earth") (at 39.37 44.45 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9b700098-2edb-4e9a-b6ea-b6f206b37eca)
-    (property "Reference" "#PWR058" (at 33.02 44.45 0)
+    (property "Reference" "#PWR060" (at 33.02 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (at 35.56 44.45 0)
@@ -2966,7 +2966,7 @@
     (instances
       (project "Zynq7020_AD9238"
         (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799/5a80b4b3-a189-42dc-b06a-167a926c6d04"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR060") (unit 1)
         )
       )
     )
@@ -2975,7 +2975,7 @@
   (symbol (lib_id "Device:C") (at 76.2 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9e79ae1c-a5af-4706-b5d7-ca03169f7310)
-    (property "Reference" "C108" (at 80.01 146.05 0)
+    (property "Reference" "C114" (at 80.01 146.05 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 80.01 148.59 0)
@@ -2992,7 +2992,7 @@
     (instances
       (project "Zynq7020_AD9238"
         (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799/5a80b4b3-a189-42dc-b06a-167a926c6d04"
-          (reference "C108") (unit 1)
+          (reference "C114") (unit 1)
         )
       )
     )
@@ -3027,7 +3027,7 @@
   (symbol (lib_id "Device:C") (at 66.04 55.88 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a4e022c4-d044-4d19-917c-f759fcd4a560)
-    (property "Reference" "C120" (at 64.77 54.61 90)
+    (property "Reference" "C111" (at 64.77 54.61 90)
       (effects (font (size 1.016 1.016)) (justify right))
     )
     (property "Value" "0.1uF" (at 67.31 54.61 90)
@@ -3044,7 +3044,7 @@
     (instances
       (project "Zynq7020_AD9238"
         (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799/5a80b4b3-a189-42dc-b06a-167a926c6d04"
-          (reference "C120") (unit 1)
+          (reference "C111") (unit 1)
         )
       )
     )
@@ -3053,7 +3053,7 @@
   (symbol (lib_id "power:Earth") (at 30.48 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid af1c71b9-b2d1-4351-8a5e-4843a08d2df4)
-    (property "Reference" "#PWR060" (at 30.48 100.33 0)
+    (property "Reference" "#PWR059" (at 30.48 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (at 30.48 97.79 0)
@@ -3069,7 +3069,7 @@
     (instances
       (project "Zynq7020_AD9238"
         (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799/5a80b4b3-a189-42dc-b06a-167a926c6d04"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR059") (unit 1)
         )
       )
     )
@@ -3078,7 +3078,7 @@
   (symbol (lib_id "Device:C") (at 92.71 81.28 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid af964abf-f5e6-4e9f-989c-fbd7383ebf6c)
-    (property "Reference" "C124" (at 92.71 74.93 90)
+    (property "Reference" "C121" (at 92.71 74.93 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1uF" (at 92.71 77.47 90)
@@ -3095,7 +3095,7 @@
     (instances
       (project "Zynq7020_AD9238"
         (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799/5a80b4b3-a189-42dc-b06a-167a926c6d04"
-          (reference "C124") (unit 1)
+          (reference "C121") (unit 1)
         )
       )
     )
@@ -3104,7 +3104,7 @@
   (symbol (lib_id "power:Earth") (at 76.2 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid afe76a70-30c7-4031-9251-4e8a34a65ad2)
-    (property "Reference" "#PWR063" (at 76.2 157.48 0)
+    (property "Reference" "#PWR067" (at 76.2 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (at 76.2 154.94 0)
@@ -3120,7 +3120,7 @@
     (instances
       (project "Zynq7020_AD9238"
         (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799/5a80b4b3-a189-42dc-b06a-167a926c6d04"
-          (reference "#PWR063") (unit 1)
+          (reference "#PWR067") (unit 1)
         )
       )
     )
@@ -3155,7 +3155,7 @@
   (symbol (lib_id "power:Earth") (at 25.4 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b092dda0-ccf8-4757-932c-83994c39ede3)
-    (property "Reference" "#PWR059" (at 25.4 96.52 0)
+    (property "Reference" "#PWR057" (at 25.4 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (at 25.4 93.98 0)
@@ -3171,7 +3171,7 @@
     (instances
       (project "Zynq7020_AD9238"
         (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799/5a80b4b3-a189-42dc-b06a-167a926c6d04"
-          (reference "#PWR059") (unit 1)
+          (reference "#PWR057") (unit 1)
         )
       )
     )
@@ -3180,7 +3180,7 @@
   (symbol (lib_id "power:Earth") (at 156.21 82.55 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b71297a8-f727-4f45-99f9-f649ba72dda7)
-    (property "Reference" "#PWR082" (at 149.86 82.55 0)
+    (property "Reference" "#PWR070" (at 149.86 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (at 152.4 82.55 0)
@@ -3196,7 +3196,7 @@
     (instances
       (project "Zynq7020_AD9238"
         (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799/5a80b4b3-a189-42dc-b06a-167a926c6d04"
-          (reference "#PWR082") (unit 1)
+          (reference "#PWR070") (unit 1)
         )
       )
     )
@@ -3205,7 +3205,7 @@
   (symbol (lib_id "Device:C") (at 176.53 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c25a279b-e57b-480a-abdf-7414c7507fb0)
-    (property "Reference" "C134" (at 179.07 109.22 0)
+    (property "Reference" "C132" (at 179.07 109.22 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 179.07 111.76 0)
@@ -3222,7 +3222,7 @@
     (instances
       (project "Zynq7020_AD9238"
         (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799/5a80b4b3-a189-42dc-b06a-167a926c6d04"
-          (reference "C134") (unit 1)
+          (reference "C132") (unit 1)
         )
       )
     )
@@ -3231,7 +3231,7 @@
   (symbol (lib_id "power:Earth") (at 66.04 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c2659961-6a44-40ec-a4a4-a6a57dcbe880)
-    (property "Reference" "#PWR069" (at 66.04 102.87 0)
+    (property "Reference" "#PWR065" (at 66.04 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (at 66.04 100.33 0)
@@ -3247,7 +3247,7 @@
     (instances
       (project "Zynq7020_AD9238"
         (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799/5a80b4b3-a189-42dc-b06a-167a926c6d04"
-          (reference "#PWR069") (unit 1)
+          (reference "#PWR065") (unit 1)
         )
       )
     )
@@ -3256,7 +3256,7 @@
   (symbol (lib_id "Device:C") (at 176.53 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c3fc5c34-e685-4870-8459-b35090b21938)
-    (property "Reference" "C133" (at 179.07 29.21 0)
+    (property "Reference" "C131" (at 179.07 29.21 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 179.07 31.75 0)
@@ -3273,7 +3273,7 @@
     (instances
       (project "Zynq7020_AD9238"
         (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799/5a80b4b3-a189-42dc-b06a-167a926c6d04"
-          (reference "C133") (unit 1)
+          (reference "C131") (unit 1)
         )
       )
     )
@@ -3282,7 +3282,7 @@
   (symbol (lib_id "Device:C") (at 101.6 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c51b019f-3964-41d3-84bc-883864d94e9c)
-    (property "Reference" "C117" (at 104.14 133.35 0)
+    (property "Reference" "C123" (at 104.14 133.35 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 104.14 135.89 0)
@@ -3299,7 +3299,7 @@
     (instances
       (project "Zynq7020_AD9238"
         (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799/5a80b4b3-a189-42dc-b06a-167a926c6d04"
-          (reference "C117") (unit 1)
+          (reference "C123") (unit 1)
         )
       )
     )
@@ -3308,7 +3308,7 @@
   (symbol (lib_id "Device:C") (at 76.2 179.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c6dcd571-bf1c-4a9f-b605-8a02544f0166)
-    (property "Reference" "C110" (at 80.01 177.8 0)
+    (property "Reference" "C116" (at 80.01 177.8 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 80.01 180.34 0)
@@ -3325,7 +3325,7 @@
     (instances
       (project "Zynq7020_AD9238"
         (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799/5a80b4b3-a189-42dc-b06a-167a926c6d04"
-          (reference "C110") (unit 1)
+          (reference "C116") (unit 1)
         )
       )
     )
@@ -3334,7 +3334,7 @@
   (symbol (lib_id "power:Earth") (at 76.2 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cd5c92f6-56a8-479d-98e2-9b26341976ef)
-    (property "Reference" "#PWR062" (at 76.2 142.24 0)
+    (property "Reference" "#PWR066" (at 76.2 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (at 76.2 139.7 0)
@@ -3350,7 +3350,7 @@
     (instances
       (project "Zynq7020_AD9238"
         (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799/5a80b4b3-a189-42dc-b06a-167a926c6d04"
-          (reference "#PWR062") (unit 1)
+          (reference "#PWR066") (unit 1)
         )
       )
     )
@@ -3359,7 +3359,7 @@
   (symbol (lib_id "power:Earth") (at 76.2 167.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d3a8f31f-5434-4486-bbd8-24e0d833e7c7)
-    (property "Reference" "#PWR064" (at 76.2 173.99 0)
+    (property "Reference" "#PWR068" (at 76.2 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (at 76.2 171.45 0)
@@ -3375,7 +3375,7 @@
     (instances
       (project "Zynq7020_AD9238"
         (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799/5a80b4b3-a189-42dc-b06a-167a926c6d04"
-          (reference "#PWR064") (unit 1)
+          (reference "#PWR068") (unit 1)
         )
       )
     )
@@ -3384,7 +3384,7 @@
   (symbol (lib_id "Device:R") (at 78.74 55.88 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d6d0a737-2946-460a-9d8c-98507132d6a2)
-    (property "Reference" "R19" (at 76.2 58.42 90)
+    (property "Reference" "R16" (at 76.2 58.42 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "DNL" (at 81.28 58.42 90)
@@ -3401,7 +3401,7 @@
     (instances
       (project "Zynq7020_AD9238"
         (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799/5a80b4b3-a189-42dc-b06a-167a926c6d04"
-          (reference "R19") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -3419,7 +3419,7 @@
     (property "Footprint" "footprints:SMA_Connect" (at 26.67 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "datasheet/BWSMA-KE-P001" (at 26.67 50.8 0)
+    (property "Datasheet" "datasheet/BWSMA-KE-P001.pdf" (at 26.67 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "4" (uuid dabfba89-2fca-4354-9104-29113671ac7e))
@@ -3439,7 +3439,7 @@
   (symbol (lib_id "power:Earth") (at 161.29 118.11 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d86f979c-4ab2-440c-873e-eaed1398a94a)
-    (property "Reference" "#PWR084" (at 154.94 118.11 0)
+    (property "Reference" "#PWR072" (at 154.94 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (at 157.48 118.11 0)
@@ -3455,7 +3455,7 @@
     (instances
       (project "Zynq7020_AD9238"
         (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799/5a80b4b3-a189-42dc-b06a-167a926c6d04"
-          (reference "#PWR084") (unit 1)
+          (reference "#PWR072") (unit 1)
         )
       )
     )
@@ -3464,7 +3464,7 @@
   (symbol (lib_id "Device:C") (at 76.2 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e39fcfb2-a050-431e-9698-8053ad55c06b)
-    (property "Reference" "C109" (at 80.01 162.56 0)
+    (property "Reference" "C115" (at 80.01 162.56 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 80.01 165.1 0)
@@ -3481,7 +3481,7 @@
     (instances
       (project "Zynq7020_AD9238"
         (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799/5a80b4b3-a189-42dc-b06a-167a926c6d04"
-          (reference "C109") (unit 1)
+          (reference "C115") (unit 1)
         )
       )
     )
@@ -3490,7 +3490,7 @@
   (symbol (lib_id "Device:C") (at 107.95 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e589ae98-a69f-458c-a4c2-7bbc72b428e0)
-    (property "Reference" "C123" (at 100.33 45.72 0)
+    (property "Reference" "C125" (at 100.33 45.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "20pF" (at 100.33 48.26 0)
@@ -3507,7 +3507,7 @@
     (instances
       (project "Zynq7020_AD9238"
         (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799/5a80b4b3-a189-42dc-b06a-167a926c6d04"
-          (reference "C123") (unit 1)
+          (reference "C125") (unit 1)
         )
       )
     )
@@ -3516,7 +3516,7 @@
   (symbol (lib_id "power:Earth") (at 39.37 81.28 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e7ee2c14-94d1-4cd6-97ab-cc1a3db2582e)
-    (property "Reference" "#PWR067" (at 33.02 81.28 0)
+    (property "Reference" "#PWR061" (at 33.02 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (at 35.56 81.28 0)
@@ -3532,7 +3532,7 @@
     (instances
       (project "Zynq7020_AD9238"
         (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799/5a80b4b3-a189-42dc-b06a-167a926c6d04"
-          (reference "#PWR067") (unit 1)
+          (reference "#PWR061") (unit 1)
         )
       )
     )
@@ -3541,7 +3541,7 @@
   (symbol (lib_id "Device:C") (at 76.2 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e8fe4ac6-3ef4-4579-bafd-890a2e23edb1)
-    (property "Reference" "C107" (at 80.01 130.81 0)
+    (property "Reference" "C113" (at 80.01 130.81 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 80.01 133.35 0)
@@ -3558,7 +3558,7 @@
     (instances
       (project "Zynq7020_AD9238"
         (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799/5a80b4b3-a189-42dc-b06a-167a926c6d04"
-          (reference "C107") (unit 1)
+          (reference "C113") (unit 1)
         )
       )
     )
@@ -3567,7 +3567,7 @@
   (symbol (lib_id "power:Earth") (at 187.96 85.09 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ea7a4d15-89e7-432e-a1e4-34eee1abef3c)
-    (property "Reference" "#PWR086" (at 181.61 85.09 0)
+    (property "Reference" "#PWR074" (at 181.61 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (at 184.15 85.09 0)
@@ -3583,7 +3583,7 @@
     (instances
       (project "Zynq7020_AD9238"
         (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799/5a80b4b3-a189-42dc-b06a-167a926c6d04"
-          (reference "#PWR086") (unit 1)
+          (reference "#PWR074") (unit 1)
         )
       )
     )
@@ -3592,7 +3592,7 @@
   (symbol (lib_id "Device:R") (at 78.74 92.71 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f4a2c61b-c4df-41cc-be4c-357b258e57fa)
-    (property "Reference" "R16" (at 76.2 95.25 90)
+    (property "Reference" "R18" (at 76.2 95.25 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "DNL" (at 81.28 95.25 90)
@@ -3609,7 +3609,7 @@
     (instances
       (project "Zynq7020_AD9238"
         (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799/5a80b4b3-a189-42dc-b06a-167a926c6d04"
-          (reference "R16") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -3618,7 +3618,7 @@
   (symbol (lib_id "Device:C") (at 60.96 55.88 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f6d3de2d-24da-4569-bf9c-915bdd8553b1)
-    (property "Reference" "C112" (at 59.69 54.61 90)
+    (property "Reference" "C109" (at 59.69 54.61 90)
       (effects (font (size 1.016 1.016)) (justify right))
     )
     (property "Value" "0.1uF" (at 62.23 54.61 90)
@@ -3635,7 +3635,7 @@
     (instances
       (project "Zynq7020_AD9238"
         (path "/e2c3762a-bcbe-43e8-9d28-0bac9f933799/5a80b4b3-a189-42dc-b06a-167a926c6d04"
-          (reference "C112") (unit 1)
+          (reference "C109") (unit 1)
         )
       )
     )
